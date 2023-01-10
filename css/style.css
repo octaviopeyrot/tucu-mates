@@ -1,0 +1,1192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.inicio{
+    background-image: url(../assets/img/fondo_inicio_desk.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.navbar{
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    height: 105px;
+    left: 0px;
+    top: 0px;
+    color: black;
+    background-color: rgba(221, 168, 65, 0.8);
+}
+.tucu_mates{
+    position: absolute;
+    width: 346px;
+    height: 76px;
+    left: 547px;
+    top: 167px;
+    
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 76px;
+    text-align: center;
+    
+    color: #000000;
+}
+.h2tucu_mates{
+    position: absolute;
+    width: 862px;
+    height: 61px;
+    left: 289px;
+    top: 243px;
+
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
+.navbar_inicio{
+    position: absolute;
+    width: 156px;
+    height: 43px;
+    left: 244px;
+    top: 40px;
+
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #000000;
+}
+.navbar_presentacion{
+    position: absolute;
+    width: 280px;
+    height: 43px;
+    left: 580px;
+    top: 40px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+.navbar_contacto{
+    position: absolute;
+    width: 156px;
+    height: 43px;
+    left: 1040px;
+    top: 40px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#imagen1inicio{
+    position: absolute;
+    width: 445px;
+    height: 307px;
+    left: 47px;
+    top: 304px;
+    border-radius: 40px;
+}
+#nuestros_mates{
+    position: absolute;
+    width: 222px;
+    height: 46px;
+    left: 527px;
+    top: 304px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#p_nuestros_mates{
+    position: absolute;
+    width: 821px;
+    height: 200px;
+    left: 527px;
+    top: 369px;
+    
+    font-family: 'Gotu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 53px;
+    
+    color: #000000;
+}
+#imagen2inicio{
+    position: absolute;
+    width: 445px;
+    height: 307px;
+    left: 47px;
+    top: 651px;
+    border-radius: 40px;
+}
+#nuestras_bombillas{
+    position: absolute;
+    width: 275px;
+    height: 46px;
+    left: 527px;
+    top: 651px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#p_nuestras_bombillas{
+    position: absolute;
+    width: 860px;
+    height: 198px;
+    left: 527px;
+    top: 716px;
+    
+    font-family: 'Gotu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 53px;
+    
+    color: #000000;
+}
+.background_color{
+    background-color: #FFD089;
+}
+#h1mates{
+    position: absolute;
+    width: 597px;
+    height: 45px;
+    left: 421px;
+    top: 155px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    
+    color: #000000
+}
+#img_imperial{
+    position: absolute;
+    width: 403px;
+    height: 292px;
+    left: 60px;
+    top: 300px;
+    border-radius: 30px;
+}
+#h3_imperial{
+    position: absolute;
+    width: 249px;
+    height: 92px;
+    left: 147px;
+    top: 639px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;    
+}
+#precio_imperial{
+    position: absolute;
+    width: 105px;
+    height: 46px;
+    left: 219px;
+    top: 752px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#comprar_imperial{
+    position: absolute;
+    width: 159px;
+    height: 46px;
+    left: 192px;
+    top: 825px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;    
+}
+#img_camionero{
+    position: absolute;
+    width: 403px;
+    height: 292px;
+    left: 518px;
+    top: 300px;
+    border-radius: 30px;
+}
+#camionero{
+    position: absolute;
+    width: 249px;
+    height: 92px;
+    left: 596px;
+    top: 630px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#precio_camionero{
+    position: absolute;
+    width: 105px;
+    height: 46px;
+    left: 667px;
+    top: 752px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#comprar_camionero{
+    position: absolute;
+    width: 159px;
+    height: 46px;
+    left: 641px;
+    top: 825px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#img_camionero_eco{
+    position: absolute;
+    width: 403px;
+    height: 292px;
+    left: 978px;
+    top: 300px;
+    border-radius: 30px;
+}
+#camionero_eco{
+    position: absolute;
+    width: 388px;
+    height: 92px;
+    left: 985px;
+    top: 630px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#precio_camionero_eco{
+    position: absolute;
+    width: 105px;
+    height: 46px;
+    left: 1127px;
+    top: 752px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#comprar_camionero_eco{
+    position: absolute;
+    width: 159px;
+    height: 46px;
+    left: 1092px;
+    top: 825px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;    
+}
+#h1_bombillas{
+    position: absolute;
+    width: 597px;
+    height: 45px;
+    left: 421px;
+    top: 155px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    
+    color: #000000;    
+}
+#img_pico_de_loro_alpaca{
+    position: absolute;
+    width: 403px;
+    height: 292px;
+    left: 68px;
+    top: 300px;
+    border-radius: 30px;
+}
+#pico_de_loro_alpaca{
+    position: absolute;
+    width: 443px;
+    height: 92px;
+    left: 48px;
+    top: 639px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#precio_pico_de_loro_alpaca{
+    position: absolute;
+    width: 95px;
+    height: 60px;
+    left: 222px;
+    top: 738px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#comprar_pico_de_loro_alpaca{
+    position: absolute;
+    width: 159px;
+    height: 46px;
+    left: 190px;
+    top: 825px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#img_bombillon{
+    position: absolute;
+    width: 403px;
+    height: 291px;
+    left: 528px;
+    top: 301px;
+    border-radius: 30px;
+}
+#bombillon{
+    position: absolute;
+    width: 221px;
+    height: 92px;
+    left: 619px;
+    top: 630px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#precio_bombillon{
+    position: absolute;
+    width: 94px;
+    height: 46px;
+    left: 682px;
+    top: 738px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#comprar_bombillon{
+    position: absolute;
+    width: 159px;
+    height: 46px;
+    left: 649px;
+    top: 825px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#img_pico_de_loro_acero{
+    position: absolute;
+    width: 403px;
+    height: 291px;
+    left: 988px;
+    top: 301px;
+    border-radius: 30px;
+}
+#pico_de_loro_acero{
+    position: absolute;
+    width: 272px;
+    height: 92px;
+    left: 1054px;
+    top: 639px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#precio_pico_de_loro_acero{
+    position: absolute;
+    width: 105px;
+    height: 46px;
+    left: 1153px;
+    top: 738px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#comprar_pico_de_loro_acero{
+    position: absolute;
+    width: 159px;
+    height: 46px;
+    left: 1126px;
+    top: 825px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+.presentacion{
+    background-image: url(../assets/img/fondo_presentacion_desk.png) ;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+#h1_presentacion{
+    position: absolute;
+    width: 597px;
+    height: 45px;
+    left: 421px;
+    top: 163px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    
+    color: #000000;
+}
+#p_presentacion{
+    position: absolute;
+    width: 1238px;
+    height: 333px;
+    left: 102px;
+    top: 300px;
+    
+    font-family: 'Gotu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 80px;
+    text-align: center;
+    
+    color: #000000;
+}
+#img_ig{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 146px;
+    top: 209px;
+}
+#h3_ig{
+    position: absolute;
+    width: 530px;
+    height: 138px;
+    left: 424px;
+    top: 263px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#img_fb{
+    position: absolute;
+    width: 200px;
+    height: 201px;
+    left: 146px;
+    top: 464px;    
+}
+#h3_fb{
+    position: absolute;
+    width: 411px;
+    height: 138px;
+    left: 476px;
+    top: 528px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+#img_wp{
+    position: absolute;
+    width: 200px;
+    height: 199px;
+    left: 146px;
+    top: 720px;
+}
+#h3_wp{
+    position: absolute;
+    width: 492px;
+    height: 138px;
+    left: 443px;
+    top: 783px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+@media(max-width:768px){
+    /* HEADER */
+
+.navbar{
+    position: absolute;
+    width: 390px;
+    height: 62px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(221, 168, 65, 0.8);
+}
+.navbar_inicio{
+    position: absolute;
+    width: 92px;
+    height: 25px;
+    left: 16px;
+    top: 24px;
+
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.navbar_presentacion{
+    position: absolute;
+    width: 107px;
+    height: 25px;
+    left: 138px;
+    top: 1px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.navbar_contacto{
+    position: absolute;
+    width: 92px;
+    height: 25px;
+    left: 282px;
+    top: 24px;
+
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* MAIN INICIO */
+
+.tucu_mates{
+    position: absolute;
+    width: 358px;
+    height: 62px;
+    left: 16px;
+    top: 95px;
+
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #000000;
+}
+.h2tucu_mates{
+    position: absolute;
+    width: 192px;
+    height: 18px;
+    left: 99px;
+    top: 139px;
+    
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    
+    color: #000000;
+}
+#nuestros_mates{
+    position: absolute;
+    width: 139px;
+    height: 29px;
+    left: 125px;
+    top: 215px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #000000;
+}
+#imagen1inicio{
+    position: absolute;
+    width: 171px;
+    height: 142px;
+    left: 109px;
+    top: 264px;
+    border-radius: 40px;
+}
+#p_nuestros_mates{
+    position: absolute;
+    width: 358px;
+    height: 103px;
+    left: 16px;
+    top: 422px;
+
+    font-family: 'Gotu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #000000;
+}
+#nuestras_bombillas{
+    position: absolute;
+    width: 172px;
+    height: 29px;
+    left: 105px;
+    top: 527px;
+
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    text-align: center;
+
+    color: #000000;
+}
+#imagen2inicio{
+    position: absolute;
+    width: 179px;
+    height: 129px;
+    left: 106px;
+    top: 568px;
+    border-radius: 40px;
+}
+#p_nuestras_bombillas{
+    position: absolute;
+    width: 358px;
+    height: 84px;
+    left: 16px;
+    top: 733px;
+
+    font-family: 'Gotu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+/* MATES */
+
+#h1mates{
+    position: absolute;
+    width: 219px;
+    height: 38px;
+    left: 85px;
+    top: 89px;
+
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #000000;
+}
+#img_imperial{
+    position: absolute;
+    width: 245px;
+    height: 154.86px;
+    left: 72px;
+    top: 165px;
+    border-radius: 30px;
+}
+#h3_imperial{
+    position: absolute;
+    width: 151.38px;
+    height: 48.79px;
+    left: 124.89px;
+    top: 333.78px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #000000;
+}
+#precio_imperial{
+    position: absolute;
+    width: 63.83px;
+    height: 24.4px;
+    left: 168.66px;
+    top: 393.71px;
+
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+#comprar_imperial{
+    position: absolute;
+    width: 96.66px;
+    height: 24.4px;
+    left: 152.25px;
+    top: 432.42px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #000000; 
+}
+#img_camionero{
+    position: absolute;
+    width: 255px;
+    height: 173.07px;
+    left: 67px;
+    top: 476px;
+    border-radius: 30px;
+}
+#camionero{
+    position: absolute;
+    width: 113px;
+    height: 26px;
+    left: 138px;
+    top: 672px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+#precio_camionero{
+    position: absolute;
+    width: 84px;
+    height: 13px;
+    left: 153px;
+    top: 743px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+#comprar_camionero{
+    position: absolute;
+    width: 92px;
+    height: 13px;
+    left: 145.07px;
+    top: 787.38px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+#img_camionero_eco{
+    position: absolute;
+    width: 265px;
+    height: 169.53px;
+    left: 58px;
+    top: 831px;
+    border-radius: 30px;
+}
+#camionero_eco{
+    position: absolute;
+    width: 255.14px;
+    height: 53.41px;
+    left: 62.6px;
+    top: 1022.59px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+#precio_camionero_eco{
+    position: absolute;
+    width: 255.14px;
+    height: 53.41px;
+    left: 62.6px;
+    top: 1022.59px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+#precio_camionero_eco{
+    position: absolute;
+    width: 69.04px;
+    height: 26.71px;
+    left: 156px;
+    top: 1076px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+#comprar_camionero_eco{
+    position: absolute;
+    width: 104.55px;
+    height: 26.71px;
+    left: 143.19px;
+    top: 1106.48px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+
+/* BOMBILLAS */
+
+#h1_bombillas{
+    position: absolute;
+    width: 265px;
+    height: 38px;
+    left: 62px;
+    top: 89px;
+    
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+#img_pico_de_loro_alpaca{
+    position: absolute;
+    width: 256.54px;
+    height: 168.01px;
+    left: 58.73px;
+    top: 154px;
+    border-radius: 30px;
+}
+#pico_de_loro_alpaca{
+    position: absolute;
+    width: 282px;
+    height: 52.94px;
+    left: 46px;
+    top: 349.06px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+#precio_pico_de_loro_alpaca{
+    position: absolute;
+    width: 60.47px;
+    height: 34.52px;
+    left: 156.76px;
+    top: 406.02px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+#comprar_pico_de_loro_alpaca{
+    position: absolute;
+    width: 101.21px;
+    height: 26.47px;
+    left: 134.71px;
+    top: 438.37px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+#img_bombillon{
+    position: absolute;
+    width: 245px;
+    height: 168.23px;
+    left: 64px;
+    top: 513px;
+    border-radius: 30px;
+}
+#bombillon{
+    position: absolute;
+    width: 134.35px;
+    height: 53.19px;
+    left: 119.32px;
+    top: 703.2px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+#precio_bombillon{
+    position: absolute;
+    width: 57.15px;
+    height: 26.59px;
+    left: 157.62px;
+    top: 765.64px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+#comprar_bombillon{
+    position: absolute;
+    width: 96.66px;
+    height: 26.59px;
+    left: 137.61px;
+    top: 804.47px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+#img_pico_de_loro_acero{
+    position: absolute;
+    width: 263px;
+    height: 167.73px;
+    left: 63px;
+    top: 857px;
+    border-radius: 30px;
+}
+#pico_de_loro_acero{
+    position: absolute;
+    width: 177.51px;
+    height: 53.03px;
+    left: 106.07px;
+    top: 1051.82px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+#precio_pico_de_loro_acero{
+    position: absolute;
+    width: 68.52px;
+    height: 26.51px;
+    left: 170.68px;
+    top: 1108.88px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+#comprar_pico_de_loro_acero{
+    position: absolute;
+    width: 103.76px;
+    height: 26.51px;
+    left: 145.94px;
+    top: 1142.46px;
+    
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
